@@ -11,6 +11,8 @@
 		CCF0A63D2681CAB1002F2B6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0A63C2681CAB1002F2B6C /* ContentView.swift */; };
 		CCF0A63F2681CAB4002F2B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF0A63E2681CAB4002F2B6C /* Assets.xcassets */; };
 		CCF0A6422681CAB4002F2B6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF0A6412681CAB4002F2B6C /* Preview Assets.xcassets */; };
+		CCF0A64A2681CAD3002F2B6C /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0A6492681CAD3002F2B6C /* Feed.swift */; };
+		CCF0A64E2681CB12002F2B6C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0A64D2681CB12002F2B6C /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,9 @@
 		CCF0A63E2681CAB4002F2B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCF0A6412681CAB4002F2B6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CCF0A6432681CAB4002F2B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF0A6492681CAD3002F2B6C /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		CCF0A64D2681CB12002F2B6C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		CCF0A64F2681CB4D002F2B6C /* Star Wars Cats-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Star Wars Cats-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,9 @@
 				CCF0A63E2681CAB4002F2B6C /* Assets.xcassets */,
 				CCF0A6432681CAB4002F2B6C /* Info.plist */,
 				CCF0A6402681CAB4002F2B6C /* Preview Content */,
+				CCF0A6492681CAD3002F2B6C /* Feed.swift */,
+				CCF0A64D2681CB12002F2B6C /* ViewModel.swift */,
+				CCF0A64F2681CB4D002F2B6C /* Star Wars Cats-Bridging-Header.h */,
 			);
 			path = "Star Wars Cats";
 			sourceTree = "<group>";
@@ -138,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF0A64E2681CB12002F2B6C /* ViewModel.swift in Sources */,
 				CCF0A63D2681CAB1002F2B6C /* ContentView.swift in Sources */,
+				CCF0A64A2681CAD3002F2B6C /* Feed.swift in Sources */,
 				CCF0A63B2681CAB1002F2B6C /* Star_Wars_CatsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
